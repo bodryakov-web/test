@@ -1,0 +1,79 @@
+.container {
+    display: grid;
+    width: 700px;
+    height: fit-content;
+    grid-template-columns: 130px 20px 130px 20px 35px 40px;
+    /* outline: 2px solid lime; */
+    justify-content: start;
+}
+
+.one {
+    /* outline: 1px solid red; */
+    margin: 5px;
+    display: grid;
+    align-content: start;
+    width: fit-content;
+    height: fit-content;
+}
+
+.two {
+    /* outline: 1px solid blue; */
+    margin: 5px;
+    display: grid;
+    align-content: start;
+    width: fit-content;
+    height: fit-content;
+}
+
+.signs {
+    /* outline: 1px solid green; */
+    width: 10px;
+    width: fit-content;
+    margin: 5px;   
+    height: 145px;
+    display: grid;
+    align-content: space-around;
+}
+
+input {
+    width: 100px;
+    height: 20px;
+    margin: 5px;
+}
+
+p {
+    /* outline: 1px solid magenta; */
+    margin: 5px;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.equal {
+    /* outline: 1px solid purple; */
+    width: 10px;
+    width: fit-content;
+    margin: 5px;   
+    height: 145px;
+    display: grid;
+    align-content: space-around;
+}
+
+.answers {
+    /* outline: 1px solid brown; */
+    width: 10px;
+    width: fit-content;
+    margin: 5px;   
+    height: 145px;
+    display: grid;
+    align-content: space-around;
+}
+
+.buttons {
+    /* outline: 1px solid violet; */
+    width: 10px;
+    width: fit-content;
+    margin: 5px;   
+    height: 145px;
+    display: grid;
+    align-content: space-around;
+}
